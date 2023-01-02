@@ -16,3 +16,12 @@ This is a JavaFX application that allows professor to grade their student exams.
 
 This application is still in development. It is currently not open to contributions (will be soon).
 
+## Documentation
+
+This section will constantly be updated...
+
+```java
+
+test
+
+```
