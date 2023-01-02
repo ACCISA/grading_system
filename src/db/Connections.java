@@ -17,9 +17,9 @@ public class Connections {
             System.out.println("Driver not found");
             e.printStackTrace();
         }
-        String url = "jdbc:mysql://127.0.0.1:3306/appdb";
+        String url = "";
         try {
-            con = (Connection) DriverManager.getConnection(url, "root", "aniss2003");
+            con = (Connection) DriverManager.getConnection(url, "", "");
             System.out.println("[DB] Connected");
         } catch (SQLException e) {
             e.printStackTrace();
